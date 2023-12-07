@@ -1,0 +1,8 @@
+# Указываем версию docker-compose
+version: '3'
+# Список сервисов (в данном случае один)
+services:
+  # Имя сервиса
+    time:
+    # Сборка из Dockerfile который лежит в данной папке
+      build: Dockerfile

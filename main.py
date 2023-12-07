@@ -1,3 +1,4 @@
+# Данное приложение выводит текущее время с помощью модуля datetime
 from datetime import datetime 
 
 now = datetime.now()
